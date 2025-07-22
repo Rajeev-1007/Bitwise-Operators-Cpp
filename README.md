@@ -19,31 +19,5 @@ Bitwise operators in C++ allow direct manipulation of bits within integers, maki
 
 Bitwise logic is often used for setting flags, masking values, optimizing calculations, and performing efficient encryption or compression algorithms.
 
-CODE: Here's a C++ code to perform various bitwise operations and calculations.
-
-    #include<iostream>
-    using namespace std;
-    int main()
-    {
-    int a;
-    int b;
-    cout<<"Enter number a: ";
-    cin>>a;
-    cout<<"Enter number b: ";
-    cin>>b;
-    int bitwise_and=a&b;
-    int bitwise_or=a|b;
-    int bitwise_not=~a;
-    int bitwise_xor=a^b;
-    int bitwise_rightshift=a>>1;
-    int bitwise_leftshift=a<<1;
-    
-    cout<<"AND: " <<bitwise_and<<endl;
-    cout<<"OR: " <<bitwise_or<<endl;
-    cout<<"NOT: " <<bitwise_not<<endl;
-    cout<<"XOR: " <<bitwise_xor<<endl;
-    cout<<"Right Shift: " <<bitwise_rightshift<<endl;
-    cout<<"Left Shift: " <<bitwise_leftshift<<endl;
-    }
 
 Conclusion: Bitwise operators in C++ offer fast, low-level data manipulation, enabling efficient computation, flag handling, and control over individual bits for powerful programming techniques.
